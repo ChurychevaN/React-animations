@@ -11,3 +11,11 @@
     left: 25%;
     width: 50%;
 }
+
+.BackdropOpen {
+    display: block;
+}
+
+.BackdropClosed {
+    display: none;
+}
