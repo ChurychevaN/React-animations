@@ -6,9 +6,12 @@ import Backdrop from './components/Backdrop/Backdrop';
 import List from './components/List/List';
 
 class App extends Component {
-	state = {
-		modalIsOpen: false,
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			modalIsOpen: false,
+		};
+	}
 
 	showModal = () => {
 		this.setState({ modalIsOpen: true });

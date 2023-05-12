@@ -12,10 +12,12 @@
     width: 50%;
 }
 
-.BackdropOpen {
+.BackdropOpen,
+.ModalOpen {
     display: block;
 }
 
-.BackdropClosed {
+.BackdropClosed,
+.ModalClosed {
     display: none;
 }
